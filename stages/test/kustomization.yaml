@@ -5,6 +5,8 @@ resources:
 - ../../base
 - configmap.yaml
 
+namespace: argocd
+
 patches:
 - target:
     kind: Service
